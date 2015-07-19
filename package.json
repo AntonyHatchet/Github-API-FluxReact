@@ -1,0 +1,27 @@
+{
+  "name": "GithubIssue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "es6-promise": "^2.3.0",
+    "flux": "^2.0.3",
+    "keymirror": "^0.1.1",
+    "node-libs-browser": "^0.5.2",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "webpack": "^1.10.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "jsx-loader": "^0.13.2",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "author": "",
+  "license": "ISC"
+}
